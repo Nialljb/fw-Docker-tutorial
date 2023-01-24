@@ -1,0 +1,50 @@
+{
+    "config": {
+        "debug": false,
+        "Input Glob Pattern": "",
+        "Input Regex": ".*nii\\.gz",
+        "Input Tags": "",
+        "parc": true,
+        "QC": true,
+        "robust": true,
+        "vol": true,
+        "verbose": "v"
+    },
+    "inputs": {
+        "input": {
+            "hierarchy": {
+                "id": "6388a6a85a49bfdbecab0bdb",
+                "type": "analysis"
+            },
+            "object": {
+                "type": "nifti",
+                "mimetype": "application/octet-stream",
+                "modality": null,
+                "classification": {},
+                "tags": [],
+                "info": {},
+                "size": 20809246,
+                "zip_member_count": null,
+                "version": 1,
+                "file_id": "638917e45a49bfdbecab0be1",
+                "origin": {
+                    "type": "job",
+                    "id": "6388a6a85a49bfdbecab0bdf"
+                }
+            },
+            "location": {
+                "path": "/flywheel/v0/input/input/isotropicReconstruction.nii.gz",
+                "name": "isotropicReconstruction.nii.gz"
+            },
+            "base": "file"
+        },
+        "api-key": {
+            "base": "api-key",
+            "key": ""
+        }
+    },
+    "destination": {
+        "id": "6389c0a26bc14639afab0bd7",
+        "type": "analysis"
+    }
+}
